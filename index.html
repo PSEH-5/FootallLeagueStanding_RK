@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Football league</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/footballLeague.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+<body>
+
+<h1>Footall league status</h1>
+<div class="selectors">
+    <div class="country">
+        <label>Select a country</label>
+        <select id="countrySelector">
+            <option selected="true" disabled="disabled">Choose a country</option>
+        </select>
+    </div>   
+</div>
+<div class="selectors">
+    <div class="league">
+        <label>Select a league</label>
+        <select id="leagueSelector">
+            <option selected="true" disabled="disabled">Choose a league</option>
+        </select>
+    </div>   
+</div>
+<div class="selectors">
+    <div class="team">
+        <label>Select a team</label>
+        <select id="teamSelector">
+            <option selected="true" disabled="disabled">Choose a team</option>
+        </select>
+    </div>   
+</div>
+
+<div id="result"></div>
+<div id="loader">
+        <img src="images/loader.svg" class="loading-image">
+</div>
+</body>
+</html>
